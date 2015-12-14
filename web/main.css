@@ -4,7 +4,7 @@
 #FFFF99 (yellow) with #696969 (silver) or #F08080 (coral) text   */
 
 body {
-	background-color:#D2B48C;
+	background-color:#D7DF01;
    margin:0 auto;
 }
 
@@ -72,7 +72,7 @@ label {
 }
 
 .header{
-	background-color:tan;
+	background-color:#D7DF01;
 	text-align:left;
 	padding:25px;
 }
@@ -107,13 +107,18 @@ label {
    width:60%;
 }
 
-
+.content{
+   width:60%;
+   margin: 0 auto;
+}
 
 .navlist
 {
 list-style: none;
 padding: 0;
 margin: 0;
+
+color: #ffffff;
 }
 
 .navlist li
@@ -121,6 +126,7 @@ margin: 0;
 display: inline;
 padding: 0;
 margin: 0;
+
 }
 
 .navlist li:before { content: "| "; }

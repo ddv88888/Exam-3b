@@ -21,20 +21,21 @@
       <form name="addForm" action="addCustomer" method="get">
          
          <label>First Name:</label>
-         <input tpye="text" name="firstName" value="" />
-         <br><br>
+         <input tpye="text" name="firstName" value="" required/>
+         <br>
          <label>Last Name:</label>
-         <input tpye="text" name="lastName" value="" />
+         <input tpye="text" name="lastName" value="" required/>
          <br><br>
          <label>Address:</label>
-         <input tpye="text" name="addr1" value="" />
+         <input tpye="text" name="addr1" value="" required/><br>
+         <label>Address Line2:</label>
          <input tpye="text" name="addr2" value="" />
          <br><br>
          <label>City:</label>
-         <input tpye="text" name="city" value="" />
+         <input tpye="text" name="city" value="" required/>
          <br><br>
-         <label>State:</label><br>
-         <select name="state">
+         <label>State:</label>
+         <select name="state" required>
             <option value="">Please choose a state...</option>
                <option value="AL">Alabama</option>
                <option value="AK">Alaska</option>
@@ -88,8 +89,9 @@
                <option value="WI">Wisconsin</option>
                <option value="WY">Wyoming</option>
          </select>
+         <br><br>
          <label>Zip Code:</label>
-         <input tpye="text" name="zip" value="" />
+         <input tpye="text" name="zip" value="" required/>
          <br><br>
          <label>Email:</label>
          <input tpye="text" name="emailAddr" value="" />
